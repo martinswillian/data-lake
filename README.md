@@ -5,6 +5,7 @@
 Os scripts Terraform neste projeto criam os seguintes recursos na AWS:
 
 - Um bucket S3 para armazenamento de dados, com redundância, persistência de 5 anos, e armazenados no Glacier.
+- Um cluster EMR para processar e analisar os dados.
 - Um banco de dados do AWS Glue Catalog para gerenciamento de metadados.
 - Um crawler do AWS Glue para coletar dados do bucket S3 e atualizar o catálogo do AWS Glue.
 - Um grupo de trabalho do Amazon Athena para consultas SQL em dados armazenados no S3.
