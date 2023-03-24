@@ -1,6 +1,6 @@
 # Datalake
 
-## O que faz?
+## O que faz:
 
 Os scripts Terraform neste projeto criam os seguintes recursos na AWS:
 
